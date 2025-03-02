@@ -21,27 +21,22 @@ These projects are developed while learning from:
 
 ### Machine Learning Projects Portfolio
 
-| **#** | **Project Name** | **Algorithm(s) Used** | **Dataset** | **Problem Statement** |  
-|----|-----------------|----------------------|-------------|------------------------|  
-| **1** | CO₂ Emission Prediction for Vehicles | Linear Regression | [CO₂ Emission Dataset](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles) | Predict CO₂ emissions based on fuel consumption and engine size. |  
-| **2** | Diabetes Risk Prediction for Patients | Logistic Regression | [Pima Indians Diabetes Dataset]([(https://github.com/npradaschnor/Pima-Indians-Diabetes-Dataset/blob/master/diabetes.csv)](https://github.com/npradaschnor/Pima-Indians-Diabetes-Dataset/blob/master/diabetes.csv)) | Predict a person's likelihood of developing diabetes using health parameters. |  
-| **3** | House Price Estimator for Real Estate Agencies | Linear Regression | [California Housing Dataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices) | Estimate house prices based on location, size, and amenities. |  
-| **4** | Customer Churn Prediction for Telecom Companies | Logistic Regression | [Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) | Predict whether a telecom customer will leave based on service usage and billing history. |  
-| **5** | Fraud Detection in Online Transactions | Neural Network (Binary Classification), Anomaly Detection | [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) | Identify fraudulent transactions using anomaly detection. |  
-| **6** | Loan Default Prediction for Banks | Decision Trees, Random Forest, XGBoost | [Loan Default Dataset](https://www.kaggle.com/datasets/itsahmad/loan-default-prediction) | Predict if a borrower will default on a loan using financial history. |  
-| **7** | Handwritten Digit Recognition for Automated Forms Processing | Neural Network (Multi-class Classification) | [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) | Recognize handwritten digits in forms using deep learning. |  
-| **8** | Employee Attrition Prediction for HR Analytics | Decision Trees, Random Forest, XGBoost | [HR Employee Attrition Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) | Predict employee attrition for workforce planning. |  
-| **9** | Medical Image Classification (Pneumonia Detection) | Neural Networks, Transfer Learning | [Chest X-Ray Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) | Classify chest X-rays to detect pneumonia using CNNs and transfer learning. |  
-| **10** | Fake News Detection System | Decision Trees, Random Forest, XGBoost | [Fake News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) | Classify news articles as real or fake. |  
-| **11** | Traffic Sign Recognition for Autonomous Cars | CNNs, Softmax Activation | [Traffic Sign Dataset](https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset) | Classify road signs using deep learning for self-driving car systems. |  
-| **12** | Customer Sentiment Analysis for E-Commerce Reviews | NLP, Decision Trees, XGBoost | [Amazon Reviews Dataset](https://www.kaggle.com/datasets/marklvl/sentiment-labelled-sentences-data-set) | Predict customer sentiment from product reviews. |  
-| **13** | Customer Segmentation for E-Commerce Marketing | K-Means Clustering | [E-Commerce Customer Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data) | Segment customers based on purchasing behavior for targeted marketing. |  
-| **14** | Network Intrusion Detection for Cybersecurity | Anomaly Detection, Autoencoders, Isolation Forest | [NSL-KDD Dataset](https://www.kaggle.com/datasets/boltzmannbrain/nsl-kdd) | Detect anomalies in network traffic to identify cybersecurity threats. |  
-| **15** | Product Recommendation System for E-Commerce | K-Means Clustering, Collaborative Filtering | [Retail Market Basket Dataset](https://www.kaggle.com/datasets/acosta2001/ecommerce-data-clustering) | Recommend products based on purchase history and behavior. |  
-| **16** | Defective Product Detection in Manufacturing | Anomaly Detection, Isolation Forest, CNNs | [MVTec Anomaly Detection Dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad) | Detect defective products in an assembly line. |  
-| **17** | AI-Generated Personalized Workout Plans | Collaborative Filtering, Implicit Feedback, Matrix Factorization | [MyFitnessPal, Strava, Kaggle Fitness Datasets] | Recommend personalized workout plans based on users' past activities. |  
-| **18** | Sustainable Shopping Guide | Hybrid Recommender (Collaborative + Content-Based) | [Amazon Product Reviews, Ethical Consumer Database] | Help users make sustainable shopping choices using personalized recommendations. |  
-| **19** | Detecting Fashion Trends from Social Media | PCA, K-Means Clustering, Image Feature Extraction | [DeepFashion, Instagram Fashion Trends Dataset] | Detect and predict emerging fashion trends using social media image analysis. |
+| **ML Category** | **Industry Project** | **Algorithms Used** |
+|---------------|------------------|----------------|
+| Regression | CO₂ Emissions Predictor | Linear, Ridge, Lasso, Elastic Net, XGBoost |
+| Classification | Loan Default Prediction | Logistic Regression, SVM, Decision Trees, XGBoost |
+| Classification | Disease Prediction | SVM, Decision Trees, Random Forest |
+| Classification | Spam Email Detection | Naïve Bayes, Logistic Regression, Random Forest |
+| Clustering | Customer Segmentation | K-Means, DBSCAN, Hierarchical Clustering |
+| Clustering | Anomaly Detection in Cybersecurity | DBSCAN, Isolation Forest, One-Class SVM |
+| Dimensionality Reduction | Image Compression | PCA, t-SNE, LDA |
+| Dimensionality Reduction | Stock Market Feature Selection | PCA, LDA |
+| Reinforcement Learning | Self-Driving Car | Q-Learning, SARSA, DQN |
+| Reinforcement Learning | Stock Trading Bot | Deep Q-Learning, Policy Gradients |
+| Ensemble Learning | Fraud Detection | Bagging, Boosting (XGBoost, AdaBoost), Stacking |
+| Ensemble Learning | Product Recommendation System | Random Forest, Gradient Boosting, Stacking |
+
+---
 
 ---
 
