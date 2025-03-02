@@ -1,4 +1,7 @@
 streamlit
 numpy
 pandas
-pickle5
+scikit-learn
+matplotlib
+seaborn
+
