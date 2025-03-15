@@ -27,13 +27,14 @@ def main():
     st.title("🌸 Iris Flower Classification")
     st.write(
         """
-    This app predicts the species of Iris flowers using both K-Nearest Neighbors (KNN) 
-    and Decision Tree algorithms. Enter the measurements below to get predictions!
-    """
+        This app predicts the species of Iris flowers using both K-Nearest Neighbors (KNN) 
+        and Decision Tree algorithms. Enter the measurements below to get predictions!
+        """
     )
     
     # This will only train once due to the @st.cache_resource decorator
-    knn, dt, scaler = load_or_train_models()
+    try:
+        knn, dt, scaler = load_or_train_models()
 
         # Create input fields
         st.subheader("Enter Flower Measurements")
@@ -95,13 +96,12 @@ def main():
     except FileNotFoundError:
         st.error(
             """
-        Models not found! Please run the model training script first:
-        ```
-        python model.py
-        ```
-        """
+            Models not found! Please run the model training script first:
+            ```
+            python model.py
+            ```
+            """
         )
-
 
 if __name__ == "__main__":
     main()
