@@ -2,11 +2,22 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-
+import os
+from model import train_and_evaluate_models
+import gc
 
 # Load the models and scaler
 @st.cache_resource
 def load_models():
+    # Check if models exist, if not, train them
+    if not os.path.exists("models/knn_model.pkl") or not os.path.exists("models/dt_model.pkl") or not os.path.exists("models/scaler.pkl"):
+        with st.spinner("Training models... Please wait."):
+            train_and_evaluate_models()
+        st.success("Models trained successfully!")
+        # Free memory
+        gc.collect()
+    
+    # Now load the models
     knn = joblib.load("models/knn_model.pkl")
     dt = joblib.load("models/dt_model.pkl")
     scaler = joblib.load("models/scaler.pkl")
