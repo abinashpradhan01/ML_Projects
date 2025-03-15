@@ -16,7 +16,7 @@ The project uses the famous Iris dataset from scikit-learn, which includes:
 IRIS_FLOWER_CLASSIFICATION/
 │
 ├── model.py           # Model training and evaluation script
-├── app.py            # Streamlit web application
+├── streamlit_app.py            # Streamlit web application
 ├── requirements.txt  # Project dependencies
 ├── README.md        # Project documentation
 │
