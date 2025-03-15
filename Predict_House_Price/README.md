@@ -89,47 +89,6 @@ house-price-prediction/
 └── house_prices.csv      # Dataset (downloaded automatically if not present)
 ```
 
-## 🌐 Deployment Options
-
-This application is ready for deployment on various platforms:
-
-### Streamlit Cloud
-
-1. Push your code to a GitHub repository
-2. Sign in to [Streamlit Cloud](https://streamlit.io/cloud)
-3. Create a new app and point to your GitHub repository
-4. Select `app.py` as the main file
-
-### Heroku
-
-1. Create a `Procfile` with:
-   ```
-   web: streamlit run app.py
-   ```
-2. Deploy using the Heroku CLI or GitHub integration
-
-### Docker Deployment
-
-1. Create a Dockerfile:
-   ```dockerfile
-   FROM python:3.9-slim
-
-   WORKDIR /app
-
-   COPY requirements.txt .
-   RUN pip install -r requirements.txt
-
-   COPY . .
-
-   EXPOSE 8501
-
-   CMD ["streamlit", "run", "app.py"]
-   ```
-2. Build and run the Docker container:
-   ```bash
-   docker build -t house-price-prediction .
-   docker run -p 8501:8501 house-price-prediction
-   ```
 
 ## 🔍 Data Sources
 
@@ -150,22 +109,7 @@ The linear regression model achieves:
 - **RMSE**: Average error of approximately $50,000 - $70,000
 - **MSE**: Mean squared error around 2.5e9 - 5e9
 
-## 🔧 Troubleshooting
 
-### Common Issues
-
-1. **Dataset not found**
-   - The application will attempt to download the dataset automatically
-   - Check your internet connection
-   - Try downloading the dataset manually from the provided URL
-
-2. **ModuleNotFoundError**
-   - Ensure all dependencies are installed: `pip install -r requirements.txt`
-   - Verify you're using Python 3.8 or higher
-
-3. **Memory Issues**
-   - Close other applications to free up memory
-   - Try reducing the size of the dataset by sampling
 
 ## 🤝 Contributing
 
@@ -180,11 +124,3 @@ Contributions are welcome! Here's how you can contribute:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
-For questions or feedback, please open an issue on GitHub or contact the maintainer at your-email@example.com.
-
----
-
-Built with ❤️ using Python and Streamlit 
