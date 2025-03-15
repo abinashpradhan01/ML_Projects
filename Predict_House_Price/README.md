@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/streamlit-1.31.1%2B-orange)
 ![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
 
-A robust machine learning application that predicts house prices using both custom and scikit-learn linear regression models. This application is deployment-ready and uses best practices for ML application development.
+A robust machine learning application that predicts house prices using both custom and scikit-learn linear regression models. 
 
 ## ✨ Features
 
