@@ -8,7 +8,7 @@ import gc
 
 # Load the models and scaler
 @st.cache_resource
-def load_models():
+def load_or_train_models():
     # Check if models exist, if not, train them
     if not os.path.exists("models/knn_model.pkl") or not os.path.exists("models/dt_model.pkl") or not os.path.exists("models/scaler.pkl"):
         with st.spinner("Training models... Please wait."):
@@ -23,7 +23,6 @@ def load_models():
     scaler = joblib.load("models/scaler.pkl")
     return knn, dt, scaler
 
-
 def main():
     st.title("🌸 Iris Flower Classification")
     st.write(
@@ -32,9 +31,9 @@ def main():
     and Decision Tree algorithms. Enter the measurements below to get predictions!
     """
     )
-
-    try:
-        knn, dt, scaler = load_models()
+    
+    # This will only train once due to the @st.cache_resource decorator
+    knn, dt, scaler = load_or_train_models()
 
         # Create input fields
         st.subheader("Enter Flower Measurements")
