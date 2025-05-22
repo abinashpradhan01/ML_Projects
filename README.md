@@ -14,7 +14,7 @@ Predict whether a student is at risk of dropping out and suggest actionable inte
 ### 📊 Dataset
 - [UCI Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/student+performance)
 - [Students Performance in Exams – Kaggle](https://www.kaggle.com/spscientist/students-performance-in-exams)
-- [Higher Education Dropout Dataset](https://www.kaggle.com/datasets/alexandradeis/academic-performance-indicators)
+
 
 ---
 
