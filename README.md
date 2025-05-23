@@ -1,6 +1,6 @@
 # 🚀 Resume-Worthy Machine Learning Projects (End-to-End)
 
-**Abinash – May 2025**
+**Abinash – June 2025**
 
 ---
 
